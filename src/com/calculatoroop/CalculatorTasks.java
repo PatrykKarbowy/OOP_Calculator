@@ -17,6 +17,7 @@ public class CalculatorTasks {
         System.out.println("Choose an operator from ( +, -, *, / ): ");
         this.operator = read.next().charAt(0);
     }
+
     public void calculate(){
         switch (operator) {
             case '+' -> this.result = this.x + this.y;
