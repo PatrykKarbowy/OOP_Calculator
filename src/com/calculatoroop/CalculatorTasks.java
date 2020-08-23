@@ -3,10 +3,16 @@ package com.calculatoroop;
 import java.util.Scanner;
 
 public class CalculatorTasks {
-    private int x;
-    private int y;
-    private int result;
+    private double x;
+    private double y;
+    private double result;
     private char operator;
+
+    public CalculatorTasks() {
+        readTask();
+        calculate();
+        printResult();
+    }
 
     public void readTask(){
         Scanner read = new Scanner(System.in);
