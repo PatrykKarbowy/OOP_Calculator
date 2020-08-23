@@ -17,9 +17,9 @@ public class CalculatorTasks {
     public void readTask(){
         Scanner read = new Scanner(System.in);
         System.out.println("Input 1 number: ");
-        this.x = read.nextInt();
+        this.x = read.nextDouble();
         System.out.println("Input 2 number: ");
-        this.y = read.nextInt();
+        this.y = read.nextDouble();
         System.out.println("Choose an operator from ( +, -, *, / ): ");
         this.operator = read.next().charAt(0);
     }
